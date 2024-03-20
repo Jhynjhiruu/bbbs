@@ -1,0 +1,12 @@
+[package]
+name = "bb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+binrw = "0.13.3"
+hex-literal = "0.4.1"
+sha1 = "0.10.6"
+thiserror = "1.0.58"

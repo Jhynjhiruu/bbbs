@@ -1,0 +1,16 @@
+workspace = { members = ["bb"] }
+[package]
+name = "bbbs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+bb = { version = "0.1.0", path = "bb" }
+binrw = "0.13.3"
+clap = { version = "4.5.3", features = ["derive"] }
+sha1 = "0.10.6"
+soft-aes = "0.2.2"
+thiserror = "1.0.58"
